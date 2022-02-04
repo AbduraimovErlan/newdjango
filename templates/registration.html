@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'styles1.css/' %}" />
+</head>
+<body>
+<div class="card">
+    <div class="card-body">
+    <form method="POST">
+
+    <h5 class="card-title">{% csrf_token %}</h5>
+    <p class="card-text">{{ form.as_p }}</p>
+
+    <button class="btn btn-primary" type="submit">Register</button>
+    </form>
+
+
+    </div>
+</div>
+</body>
+</html>
+
+
+

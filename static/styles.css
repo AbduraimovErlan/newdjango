@@ -1,0 +1,90 @@
+body {
+	background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(../images/1.jfif.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+
+.card {
+	width:300px;
+	height:400px;
+	position: absolute;
+	left:0;
+	right:0;
+    margin: 0 auto;
+	top:50%;
+	transform:translate(0, -50%);
+	background: rgba(0,0,0,0.4);
+
+}
+
+.card h1 {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.card {
+	margin: o auto;
+	text-align: center;
+}
+
+.card input[type="text"],.card input[type="password"]
+{
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border:3px solid #0367fd;
+padding:14px 10px;
+width:220px;
+outline: none;
+color: white;
+border-radius: 24px;
+transition:0.25px;
+}
+
+
+
+
+.card input[type="text"]:focus,.card input[type="password"]:focus {
+	width: 270px;
+	border-color: #ffc400ec;}
+
+}
+
+.card input[type="submit"] {
+	    border: 0;
+	background: none;
+	display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid #ffc400ec;
+    padding:14px 10px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition:0.25px;
+    cursor:pointer;
+}
+
+.card input[type="submit"]:hover {
+	background: #ffc400ec;}
+
+
+.card  {
+	display: block;
+	padding: 0 0 30px;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	transition: .3s;
+}
+
+
+
+.card:hover {
+	color: #0fc3f5;
+}

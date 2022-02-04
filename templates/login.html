@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'styles.css/' %}" />
+</head>
+<body>
+<div class="card">
+    <div class="card-body">
+    <form method="POST">
+
+    <h5 class="card-title">{% csrf_token %}</h5>
+    <p class="card-text">{{ form.as_p }}</p>
+
+    <button type="submit">Log in</button>
+    </form>
+
+
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>-->
+<!--{% load static %}-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--	<meta charset="UTF-8">-->
+<!--	<title>Form</title>-->
+<!--	<link rel="stylesheet" type="text/css" href="{% static 'styles.css/' %}" />-->
+<!--</head>-->
+<!--<body>-->
+
+<!--	<div class="form" >-->
+<!--		<h1>Вход</h1>-->
+<!--		<div class="input-form">-->
+<!--			<input type="text" placeholder="Логин">-->
+<!--		</div>-->
+<!--		<div class="input-form">-->
+<!--			<input type="password" placeholder="Пароль">-->
+<!--		</div>-->
+<!--		<div class="input-form">-->
+<!--			<input type="submit" value="Войти">-->
+<!--		</div>-->
+<!--		<a href="#" class="forget">Забыли пароль?</a>-->
+<!--	</div>-->
+
+<!--</body>-->
+<!--</html>-->
